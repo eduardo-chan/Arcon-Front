@@ -1,0 +1,334 @@
+/*Nabvar*/
+
+.navbar-container {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  background-image: url('../../assets/FondoN.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.imagen-estilo{
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.NameUserNav{
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: white
+}
+
+.DatosNav{
+  font-size: 16px;
+  color: white
+}
+
+.edit-icon {
+  font-size: 25px;
+}
+.textinac{
+  font-size: 23px;
+}
+
+.modal-custom .modal-content {
+  background-color: #151F30;
+  color: white;
+}
+
+.fondonor {
+  background-color: #151F30;
+  color: white;
+}
+
+.modal-custom .modal-header {
+  border-bottom: none;
+}
+
+.modal-custom .modal-title {
+  color: white;
+}
+
+.modal-custom .modal-footer {
+  border-top: none;
+}
+
+.modal-custom .form-control {
+  border: 2px solid #151F30;
+  border-radius: 20px;
+  background: transparent;
+  color: white;
+}
+
+
+
+/**/
+.gestion-empleados-container {
+    width: 100vw;
+    max-width: 100%;
+    background-color: #151F30;
+    display: flex;
+    align-items: center;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .fullscreen-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; background: white;
+    background: linear-gradient(to bottom, #151F30, #444C59, #151F30);
+    z-index: -1;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .archivos-container {
+    max-width: 1200px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 20px auto; /* Centra el contenedor horizontalmente */
+    text-align: center; /* Centra el contenido dentro del contenedor */
+  }  
+  .Emplado-container {
+    max-width: 1700px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .text-white {
+    color: white;
+    margin-left: 15px;
+  }
+  /*Archivos admin*/
+  .accordion{
+    background-color: "gray";
+    color: "black";
+    border-Radius: "10px";
+  }
+
+ .accordion-header {
+  --bs-accordion-btn-bg: #B0B6BF !important;
+  --bs-accordion-active-bg: #B0B6BF !important;
+  --bs-accordion-active-color: #000000;
+    border-radius: 5px;
+    color: #a23333;
+  }
+
+  .input{
+    border-radius: 200px;
+  }
+  .circulo{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: solid #ced4da;
+  }
+  .btn-no-border{
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .color{
+    color: #1971AB;
+  }
+  /*Empleados*/
+  .small-input {
+    width: 50px; /* Ajusta el ancho según tus necesidades */
+  }
+  .columns{
+    color: #1971AB;
+  }
+  .colorbot{
+    background:#1971AB;
+  }
+  .pink-modal {
+    background-color: #444C59;
+    color: white;
+  }
+  
+  .blue-modal {
+    background-color: #151F30;
+    color: white;
+  }
+  .colorcalen{
+    background-color: white;
+  }
+  .blue-border {
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+  }
+  
+  .pink-border {
+    border: 2px solid pink;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+  }
+  /*Contraseñas*/
+
+  .pdf-preview {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  overflow-x: auto;
+  max-height: 400px;
+}
+
+.password-input-wrapper {
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+  .ojo-icon {
+    bottom: 15px;
+    color: white;
+    
+  }
+
+  .Dropdown .btn-primary {
+    width: 100%;
+    text-align: left;
+     background-color: #D0D2D6;
+     color: black;
+     border: none;
+   }
+   .justify-text {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+   .text-center {
+    text-align: center;
+  }
+  .text-center {
+    text-align: center;
+  }    
+   .Table {
+     width: 100%;
+   }
+   .password-form {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+   }
+   
+   .password-input {
+     display: flex;
+     align-items: center;
+     width: 98%;
+     margin-left: 10px;
+   }
+   
+   .password-input .form-control {
+     margin-right: 10px;
+     flex-grow: 1;
+   }
+   
+   .password-input .newArchivo {
+     flex-shrink: 0;
+     width: 30px;
+     height: 30px;
+   }
+   .botones{
+     margin-left: 10px;
+   }
+   .table-container {
+     width: 100%;
+     overflow-x: auto;
+   }
+   
+   .Table {
+     width: 100%;
+     table-layout: fixed;
+   }
+   
+   .Table th,
+   .Table td {
+     white-space: nowrap;
+   }
+ .consulta{
+   width: 100%;
+   background-color: #151F30;
+   color: white;
+   padding-left: 10px;
+ }
+ .modal .modal-content {
+   background: linear-gradient(to bottom, #151F30, #444C59);
+   color: white;
+ }
+ .Area{
+   width: 100%;
+   height: 40px;
+   display: flex;
+   text-align: center;
+   border-radius: 12px;
+   background-color: #B0B6BF;
+ }
+ .textoarea{
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 6px;
+ }
+ .buscararchivos{
+   width: 100%;
+   height: 40px;
+   margin-top: 10px;
+   border-radius: 12px;
+ }
+ .gestionarchivos{
+   left: 50px;
+ }
+ .fecha{
+     background-color: white;
+     color: black;
+     border: none;
+     border-radius: 5px;
+     text-align: left;
+     height: 40px;
+     padding-left: 10px;
+     padding-top: 7px;
+ }
+ .Busqueda{
+   width: 270px;
+   border-radius: 15px;
+   text-align: left;
+   padding-left: 10px;
+   height: 33px;
+   border-color: #1971AB;
+   margin-right: 10px;
+ }
+ .columns{
+   border: none;
+   color: #1971AB;
+ }
+ .archivoUpdateE{
+   bottom: 150px;
+   top: 100%;
+ }
+ .BuscadorE{
+  display: flex;
+ }

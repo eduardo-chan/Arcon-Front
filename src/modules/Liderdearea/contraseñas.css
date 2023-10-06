@@ -1,0 +1,129 @@
+.Dropdown .btn-primary {
+  width: 100%;
+  text-align: left;
+  background-color: #D0D2D6;
+  color: black;
+  border: none;
+}
+
+.Table {
+  width: 100%;
+}
+
+.password-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.password-input {
+  display: flex;
+  align-items: center;
+  width: 98%;
+  margin-left: 10px;
+}
+
+.password-input .form-control {
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.password-input .newArchivo {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.botones {
+  margin-left: 10px;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.Table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.Table th,
+.Table td {
+  white-space: nowrap;
+}
+
+.consulta {
+  width: 100%;
+  background-color: #151F30;
+  color: white;
+  padding-left: 10px;
+}
+
+.modal .modal-content {
+  background: linear-gradient(to bottom, #151F30, #444C59);
+  color: white;
+}
+
+.Area {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  text-align: center;
+  border-radius: 12px;
+  background-color: #B0B6BF;
+}
+
+.textoarea {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 6px;
+}
+
+.buscararchivos {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+
+.gestionarchivos {
+  left: 50px;
+}
+
+.fecha {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  text-align: left;
+  height: 40px;
+  padding-left: 10px;
+  padding-top: 7px;
+}
+
+.Busqueda {
+  width: 270px;
+  border-radius: 15px;
+  text-align: left;
+  padding-left: 10px;
+  height: 33px;
+  border-color: #1971AB;
+  margin-right: 10px;
+}
+
+.columns {
+  border: none;
+  color: #1971AB;
+}
+
+.archivoUpdateE {
+  bottom: 150px;
+  top: 100%;
+}
+
+.Emplado-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  text-align: center;
+}

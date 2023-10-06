@@ -1,0 +1,90 @@
+.error-text {
+  color: red;
+  font-size: 13px;
+}
+
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  padding: 2.5px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.text-bold {
+  font-weight: 500;
+}
+
+.card-text .description-text {
+  display: block;
+}
+
+.fondo{
+  background-color: #151F30;
+  color: white;
+}
+
+.gradient-custom-2 {
+  background:white;
+  background: -webkit-linear-gradient(
+    to right,
+    #abd6e2,
+    #3693ca,
+    #0372b7,
+    #151F30,
+  );
+  background: linear-gradient(to right, #3f24ee, #0091ff, #219cb8);
+}
+
+.btn-hover {
+  background-size: 300% 100%;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.fullscreen-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Establece la altura al 100% de la altura de la ventana */
+}
+
+.card1 {
+  width: 80%; /* Define el ancho de la card */
+  max-width: 400px; /* Establece un ancho máximo opcional para la card */
+  padding: 20px;
+  background-color: white;
+  /* Otros estilos de la card */
+}

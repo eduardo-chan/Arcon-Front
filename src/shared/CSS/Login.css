@@ -1,0 +1,89 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+  background-color: #151F30;
+  
+}
+
+.left-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #151F30;
+}
+
+.image-container {
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form h2 {
+  margin-bottom: 10px;
+}
+
+.login-form form input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+.login-form form button {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.right-side {
+  flex: 1;
+  background-image: url('../../assets/FONDO.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side img {
+  width: 100%;
+  
+}
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon {
+  bottom: 15px;
+  color: white; /* Cambia el color del icono según tus preferencias */
+  
+}
+
+.navbar-full-width {
+  width: 100%;
+}
+
+.transparent-input {
+  background-color: transparent;
+  border: 1px solid #1971AB; /* Cambia el color del borde según tus preferencias */
+  border-radius: 5px;
+  padding: 8px 35px; /* Ajusta el padding según tus necesidades */
+}
+
+.error-text {
+  color: white;
+  margin-top: 20px;
+}
+
+.input-group-text {
+  display: flex;
+  align-items: center;
+}
+
